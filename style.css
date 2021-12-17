@@ -1,0 +1,110 @@
+/*
+
+text-decoration line color style
+
+line:;
+underligne ( surligner )
+overligne ( ligne au dessus )
+line-throught ( barrer le texte )
+
+
+text-shadow ( ombres )
+px px px color
+
+text-transform
+none
+capitilze ( premiere lettres de chaques mots en capital )
+uppercase ( tout en maj )
+lowercase ( tout en min )
+
+text-align ( fonctionne pour les images )
+left
+right
+center
+justify ( occupe toute la largeur, adapte l' espace )
+
+vertical-align ( alignement vertical surtout utilisé images )
+en px, em... ou
+sub
+super ( au dessus )
+top ( en haut )
+middle ( aligner le texte de manière centrée )
+bottom
+text-bottom
+text-top
+
+text-indent ( alinea )
+en px
+
+text-overflow ( pour couper le texte (..) )
+clip (coupe le texte sans rien changer)
+ellipsis ( met (..) a la fin
+
+letter-spacing
+en px
+
+white-space
+normal
+nowrap ( pas de coupure, continu en dehors de la boite )
+pre ( garde le texte tel qu' écrit en html )
+pre-line
+prewrap ( le navigateur gère )
+
+word-spacing
+en px
+
+word-break
+break all
+keep all ( commence le mot a la ligne sans le couper )
+
+word-wrap
+normal
+break-word ( utile pour les url a ne pas couper par exemple )
+
+direction
+initial
+ltr ( left to right )
+rtl ( right to left )
+
+
+
+
+les peu utiles:
+
+text-align-last
+
+unicode-bidi
+
+text-justify
+
+
+*/
+
+body
+{margin: auto;
+width: 500px}
+
+
+img
+{text-align: center;}
+
+video
+{text-align: center;}
+
+div
+
+{
+
+text-decoration:underline yellow; 
+text-shadow: 2px 2px 5px blue;
+text-transform: uppercase;
+letter-spacing: 3px
+
+
+h1
+{text-align: center;}
+
+span
+
+{word-spacing: 3px;
+letter-spacing: 3px;}
